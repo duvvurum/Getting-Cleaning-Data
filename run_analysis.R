@@ -63,5 +63,5 @@ library(dplyr)
 arrange(aggdata, Activity_Name, Subject_code)
 # Write output table "tidy_output.csv"
 write.table(aggdata, "tidy_output.txt", sep="\t", row.names=FALSE)
-write.csv(aggdata, "tidy_output.csv", row.names=FALSE)
+
 
